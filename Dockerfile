@@ -3,4 +3,4 @@ FROM cypress/base:12
 COPY . .
 
 RUN npm install
-RUN npx cypress run --headless
+RUN npm run e2e:electron

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "e2e:chrome":"cypress run --browser chrome --headless",
-    "e2e:firefox":"cypress run --browser firefox --headless"
+    "e2e:firefox":"cypress run --browser firefox --headless",
+    "e2e:electron":"cypress run --browser electron --headless"
   },
   "author": "",
   "license": "ISC",
