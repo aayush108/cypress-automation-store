@@ -1,0 +1,21 @@
+{
+  "name": "cypress-auto-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e:chrome":"cypress run --browser chrome --headless",
+    "e2e:firefox":"cypress run --browser firefox --headless"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/faker": "^5.5.7",    
+    "faker": "^5.5.3"
+  }
+}
